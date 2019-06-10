@@ -1,0 +1,46 @@
+@keyframes slideDown{
+    0%{
+        stroke-dasharray: 100;
+    }
+    to{
+        stroke-dasharray: 500;
+    }
+}
+.title{
+    font-family: 'Fredoka One',cursive;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+#svgline{
+    stroke-dasharray: 500;
+    animation: slideDown 10s linear;
+}
+button#signin{
+    margin-left: 40%;
+}
+button#signup{
+    margin-left: 30%;
+}
+/*Style For Main Page*/
+
+.layout2{
+    justify-content:space-around;
+}
+.pos-f-t{
+  margin: 2%;
+}
+.image{
+    height: 30%;
+}
+.card{
+    border-radius: 5px;
+}
+.newArrivals{
+  margin:5%;
+  font-family: 'Oswald',sans-serif;
+}
