@@ -48,15 +48,15 @@
         </button>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>
       </nav>
 
     </div>
 
-    <div>Hi<?php
+    <div><?php
     if(!empty($_POST['user'])) 
-      echo $_POST['user'];
+      echo "Hi"+$_POST['user'];
     ?></div>
 
     <div class="container layout2"> 
@@ -114,8 +114,9 @@
          </div>
          <div class="container">
          <div class="row">
-           <button class="btn btn-outline-primary col">View</button>
-           <button class="btn btn-outline-primary col">Add To Cart</button>
+           <input name='image' value='https://images-na.ssl-images-amazon.com/images/I/514YMVAc6NL._SL1024_.jpg' style='display:none;'>
+           <button class="btn btn-outline-light col">View</button>
+           <button class="btn btn-outline-light col">Add To Cart</button>
          </div>      
          </div>
 
@@ -139,8 +140,9 @@
          </div>
          <div class="container">
          <div class="row">
-           <button class="btn btn-outline-primary col">View</button>
-           <button class="btn btn-outline-primary col">Add To Cart</button>
+           <input name='image' value='https://images-na.ssl-images-amazon.com/images/I/61yoslB8R2L._SX679_.jpg' style='display:none;'>
+           <button class="btn btn-outline-light col">View</button>
+           <button class="btn btn-outline-light col">Add To Cart</button>
          </div>      
          </div>
       </form>
@@ -163,8 +165,9 @@
             </div>
             <div class="container">
          <div class="row">
-           <button class="btn btn-outline-primary col">View</button>
-           <button class="btn btn-outline-primary col">Add To Cart</button>
+           <input name='image' value='https://images-na.ssl-images-amazon.com/images/I/61YVqHdFRxL._SL1322_.jpg' style='display:none;'>
+           <button class="btn btn-outline-light col">View</button>
+           <button class="btn btn-outline-light col">Add To Cart</button>
          </div>      
          </div>
        </form>    

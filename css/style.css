@@ -1,3 +1,13 @@
+@media screen and (max-width :991px)
+{
+    div#svg{
+        display: none;
+    }
+    div#signup{
+        margin-top: 5%;
+    }
+}
+
 @keyframes slideDown{
     0%{
         stroke-dasharray: 100;
@@ -6,8 +16,13 @@
         stroke-dasharray: 500;
     }
 }
+.body1{
+    color: rgb(253, 62, 94);
+}
+
 .title{
     font-family: 'Fredoka One',cursive;
+    color: rgb(253, 62, 94);
 }
 
 
@@ -16,9 +31,23 @@
     justify-content: space-evenly;
     flex-flow: wrap;
 }
+.bucket{
+    padding: 7%;
+    background-color: rgb(253, 62, 94);
+    color: white;
+}
+.signin_Head{
+    position: relative;
+    top: 15%;
+}
+.signin_form{
+    position: relative;
+    top: 16%;
+}
 #svgline{
     stroke-dasharray: 500;
     animation: slideDown 10s linear;
+    color: white;
 }
 button#signin{
     margin-left: 40%;
@@ -34,13 +63,51 @@ button#signup{
 .pos-f-t{
   margin: 2%;
 }
+.table-dark{
+    background-color: rgb(253, 62, 94);
+}
+.bg-dark{
+    background-color: rgb(253, 62, 94) !important;
+}
+.btn:hover{
+    color: rgb(253, 62, 94);
+}
 .image{
-    height: 30%;
+   margin-top: 5%;
 }
 .card{
-    border-radius: 5px;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253,62,94,0.3);
+}
+.card .btn{
+    margin-right: 4%;
+}
+form{
+    margin:5%; 
+}
+.card-body ul{
+    font-size: 0.7em;
 }
 .newArrivals{
   margin:5%;
   font-family: 'Oswald',sans-serif;
+}
+
+/*Style For third Page*/
+.side{
+    width: 5%;
+    border: 1% gray;
+}
+#main{
+    width:30%;
+    border:1px black solid;
+}
+.body{
+    display: inline-flex;
+    flex-direction: column;
+}
+.details{
+    height:50%;
 }
